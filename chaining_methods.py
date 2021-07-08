@@ -21,8 +21,7 @@ maddox = User("Maddox Womble", "MadFox420@WSMFP.com")
 
 # guido.make_deposit(100).make_deposit(200).make_withdrawl(75).display_user_balance()
 
-guido.make_deposit(100).make_deposit(200).make_deposit(300).make_withdrawal(50).display_user_balance()
+# guido.make_deposit(100).make_deposit(200).make_deposit(300).make_withdrawal(50).display_user_balance()
 
-
-
+guido.make_deposit(14) #this set works as a test case, but my chain above doesn't
 print(guido.account_balance) # this works
